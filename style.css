@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sora:wght@100..800&display=swap');
+/* font-family: "Outfit", sans-serif; */
+/* font-family: "Sora"; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;    
+    height: 100%;
+    background-color: #0e0f1a;
+}
+ .pic img{
+width: 150px;
+height: 18px;
+}
+page1{
+    width: 100vw;
+    height: 100vh;
+
+}
+h3{
+    font-size: 20px;
+            font-weight: light;
+font-family: "sora";
+            background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+
+span{
+    font-size: 20px;
+            font-weight: light;
+font-family: "sora";
+            background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+page2{
+    width: 100vw;
+    height: 100vh;
+
+
+}
+.arr{
+font-family: "sora";
+background: linear-gradient(300deg, #F87516 0%, #5E11FF 60%);
+padding: 16px 27px;
+    border-radius: 15px;
+    font-size: 19px;
+}
+.arr span img{
+    filter: invert();
+}
+.page3{
+    min-width: 100vw;
+   min-height: 100vh;
+
+}
+.page3 h1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    padding:80px 0px;
+}
+.main .box2{
+    margin-top: 50px;
+}
+.page4{
+    width: 100vw;
+    height: 100vh;
+}
+footer{
+    background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+
+}
+
+@media only screen and (max-width:750px) {
+.none{
+    display: none;
+}    
+.textt{
+    flex-direction: column;
+    margin-left: 40px;
+}
+.lt{
+    display: flex;
+    justify-content: start;
+    padding:42px 0px;
+}
+.tt{
+    position: relative;
+    left:50%;
+    right:50%;
+    transform: translate(-50%,-50%);
+    width: 32vw;
+    margin-top: 30px;
+}
+.colr{
+    margin: 0;
+    width: 100vw;
+    position: relative;
+    left:50%;
+    right:50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+}
+.colr h1{
+    font-size: 40px;
+}
+.colr h1 span{
+    font-size: 40px;
+}
+.colr h2{
+    margin-bottom: 0;
+}
+.circle{
+    flex-direction: column; 
+    gap:50px;
+}
+.stck{
+    flex-direction: column;
+    padding-bottom: 0;
+
+}
+.stck left{
+    width: 100%;
+    margin-left: 10px;
+}
+.stck left h1{
+    font-size: 30px;
+}
+.stck left button{
+    position: relative;
+    left:50%;
+    right:50%;
+    transform: translate(-50%,-50%);
+    margin-top: 80px;
+}
+.stck right img{
+    position: relative;
+    left:50%;
+    right:50%;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
+}
+.page3 h1{
+    font-size: 2rem;
+}
+.page3 .main{
+    flex-direction: column;
+}
+.page3 .main .box1{
+width: 95vw;
+margin: 0vw 2vw;
+}
+.page3 .main .box2{
+width: 95vw;
+margin: 0vw 2vw;
+
+}
+.page4 .chrr{
+    width: 90vw;
+    margin: 2vw 5vw;
+}
+.page4 .chrr h4{
+    padding-left: 30px;
+    text-align: center;
+
+}
+.page4 .rund{
+    width: 100vw;
+}
+.page4 .rund h1{
+margin:0vw 8vw;
+font-size: 3.5vw;
+}
+.page4 .rund2{
+    width: 100vw;
+}
+.page4 .rund2 h4{
+margin:0px 20px;
+text-align: center;
+
+} 
+
+.page5 .cont{
+    flex-direction: column;
+}
+.page5 .cont .left,.mid,.right{
+width: 95%;
+margin: 0% 2.5%;
+}
+.page5 .cont .left h1,.mid h1,.right h1{
+    font-size: 3vw;
+} 
+}
